@@ -1,15 +1,11 @@
 body {
   background-image: url(https://i.pinimg.com/originals/03/15/e9/0315e997ab28f4f837fd68a23c92b9a1.jpg);
-  background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;    
 }
 
 img[id^="card-"]{
   background-image: url(https://png.icons8.com/color/1600/instinct-pokemon.png);
-  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
 img {
