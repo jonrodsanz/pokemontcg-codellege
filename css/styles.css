@@ -1,0 +1,69 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/03/15/e9/0315e997ab28f4f837fd68a23c92b9a1.jpg);
+  background-size: cover;
+  background-attachment: fixed;    
+}
+
+img[id^="card-"]{
+  background-image: url(https://png.icons8.com/color/1600/instinct-pokemon.png);
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px solid black;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  transition: .8s;
+  background-image: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/6/67/Pokemon-go-blog-banner.png/revision/latest?cb=20180404052455);
+  padding: 20px;
+}
+
+input {
+  padding: 5px;
+}
+/* img:hover{
+  transform: scale(0.95);
+} */
+table, tr {
+  width: 100%;
+}
+
+td {
+  width: 50%;
+}
+
+.modal-box--image {
+  /* box-shadow: 7px 7px 7px rgb(94, 33, 33); */
+  transform: rotate(-5deg);
+}
+.jBox-container img {
+  width: 85%;
+}
+
+@media screen and (max-width: 577px){
+  .modal-box--image__container{
+    margin: 20px;
+    margin-top: 0;
+    height: 35vh;
+    overflow: hidden;
+    text-align: center;
+  }
+  /* img{
+    transform: scale(0.85)
+  } */
+}
+      
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
