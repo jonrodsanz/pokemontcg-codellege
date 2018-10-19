@@ -12,7 +12,7 @@ $("#pokemon-button").click(function(e){
         $(columna).attr("class","col-md-3 col-6")
                   .appendTo("#linea")
                   .append("<img id= 'card-"+ card.id +"'src='"+ card.imageUrl + "'>");
-        var heightModal = $(window).width() < 768 ? 520:440;
+        var heightModal = $(window).width() < 768 ? 450:440;
         var modalBox =  new jBox('Modal', {
           //Era 900
           width: 750,
